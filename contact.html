@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>LightWave Studios</title>
+  
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- fonts awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+ 
+
+</head>
+<body class="sub_page">
+  <div class="uniquecsspart">
+    hello everyone this text here to remind you to stay hydrated!
+  </div>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <div class="custom_menu-btn">
+          <button onclick="openNav()">
+            <span class="s-1"> </span>
+            <span class="s-2"> </span>
+            <span class="s-3"> </span>
+          </button>
+        </div>
+        <div id="myNav" class="overlay">
+          <div class="menu_btn-style ">
+            <button onclick="closeNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <a class="" href="index.html">
+              Home
+            </a>
+            <a class="" href="about.html">
+              About
+            </a>
+            <a class="" href="portfolio.html">
+              Portfolio
+            </a>
+            <a class="" href="team.html">
+              Team
+            </a>
+            <a class="active" href="contact.html">
+              Contact Us 
+            </a>
+          </div>
+        </div>
+        <a class="navbar-brand" href="index.html">
+          <span>
+            LightWave Studios
+          </span>
+        </a>
+        <a href="call us.html" class="call_btn">
+          Call Us Now
+        </a>
+      </nav>
+    </header>
+    <!-- end header section -->
+  </div>
+  <!-- Form section -->
+     
+  <section class="form_section">
+    <div class="container">
+      <div class="row">
+        <div> 
+          <a href="call us.html">
+            <img src="images/camera2.jpg" alt="Call Us" width="200" height="300" class="img-left">
+          </a>
+        </div>
+        <div class="col-md-6 offset-md-3">
+            <h1>
+                  You can make a reservation in here or you can reach us through e-mail or over phone!
+            </h1>
+            <form>
+            <div class="form-group">
+                <label for="textbox">Your e-mail adress:</label>
+                <input type="text" class="form-control" id="textbox">
+            </div>
+            <div class="form-group">
+                <label for="button"></label>
+                <button type="button" class="btn btn-primary" id="button">Submit</button>
+            </div>
+            <div class="form-group">
+                <label for="radiobutton">Shooting Time:</label><br>
+                <input type="radio" id="radiobutton1" name="shootingtime" value="option1">
+                <label for="radiobutton1">Morning</label><br>
+                <input type="radio" id="radiobutton2" name="shootingtime" value="option2">
+                <label for="radiobutton2">Afternoon</label><br>
+                <input type="radio" id="radiobutton3" name="shootingtime" value="option3">
+                <label for="radiobutton3">Night</label><br>
+            </div>
+            <div class="form-group">
+                  <label for="radiobutton">Area Selection:</label><br>
+                  <input type="radio" id="radiobutton1" name="areaselection" value="option1">
+                  <label for="radiobutton1">Outdoor</label><br>
+                  <input type="radio" id="radiobutton2" name="areaselection" value="option2">
+                  <label for="radiobutton2">Indoor</label><br>
+            </div>
+            <div class="form-group">
+                <label for="checkbox">How you would like to dress?(You can choose both and we can shoot with different outfits!)</label><br>
+                <input type="checkbox" id="checkbox1" name="checkbox1" value="option1">
+                <label for="checkbox1">I will provide the costumes myself</label><br>
+                <input type="checkbox" id="checkbox2" name="checkbox2" value="option2">
+                <label for="checkbox2">We will provide costumes for you</label><br>
+            </div>
+            <div class="form-group">
+              <label for="dropdown">Choose a day for photoshoot:</label>
+              <select class="form-control" id="dropdown">
+                  <option value="option1">Monday</option>
+                  <option value="option2">Tuesday</option>
+                  <option value="option3">Wednesday</option>
+                  <option value="option4">Thursday</option>
+                  <option value="option4">Friday</option>
+                  <option value="option4">Saturday</option>
+                  <option value="option4">Sunday</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit all" class="btn btn-secondary">Submit All</button>
+            <br></br>
+            <div>
+                <h2>
+                      DON'T FORGET TO CHECK YOUR E-MAIL AND CONTACT US FOR MORE DETAIL!
+                </h2>
+            </div>
+          </form>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+   <!--form section-->
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-6">
+          <p>
+            &copy; <span id="displayYear"></span> All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-xl-6">
+          <div class="link_box">
+            <a class="" href="index.html">
+              Home
+            </a>
+            <a class="" href="about.html">
+              About
+            </a>
+            <a class="" href="portfolio.html">
+              Portfolio
+            </a>
+            <a class="" href="team.html">
+              Team
+            </a>
+            <a class="" href="contact.html">
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
